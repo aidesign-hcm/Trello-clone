@@ -15,7 +15,7 @@ export default new Router({
       component: Board,
       children: [
         {
-          path: 'task/:id',
+          path: '/task/:id',
           name: 'task',
           component: Task
         }
